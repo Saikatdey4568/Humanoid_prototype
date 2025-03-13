@@ -6,7 +6,7 @@ Servo servo[20] = {};
 #include "bipedX_v1.h"
 
 /* Initializing servo drive and OLED display */
-void bipedX_v1::init_hash() {
+void bipedX_v1::init_bipedX() {
   int servo_pins[20] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21};
   for (int i = 0; i < 20; i++) {
     servo[i].attach(servo_pins[i]);
